@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 50px auto;
-    max-width: 350px;
+    max-width: 450px;
     text-align: center;
     column-gap: 30px;
     flex-wrap: wrap;
