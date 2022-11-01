@@ -1,9 +1,9 @@
 //initialise variables
 let homeScore = 0;
-let guestScore = 0;
+let awayScore = 0;
 
 let homeScoreEl = document.getElementById("homeScore");
-let guestScoreEl = document.getElementById("guestScore");
+let awayScoreEl = document.getElementById("awayScore");
 
 //home score functions
 function add1H() {
@@ -24,19 +24,19 @@ function add3H() {
 
 //Guest score functions
 function add1G() {
-    guestScore += 1;
-    console.log(guestScore);
-    guestScoreEl.textContent = guestScore;
+    awayScore += 1;
+    console.log(awayScore);
+    awayScoreEl.textContent = awayScore;
 }
 function add2G() {
-    guestScore += 2;
-    console.log(guestScore);
-    guestScoreEl.textContent = guestScore;
+    awayScore += 2;
+    console.log(awayScore);
+    awayScoreEl.textContent = awayScore;
 }
 function add3G() {
-    guestScore += 3;
-    console.log(guestScore);
-    guestScoreEl.textContent = guestScore;
+    awayScore += 3;
+    console.log(awayScore);
+    awayScoreEl.textContent = awayScore;
 }
 
 // reset function
@@ -44,8 +44,8 @@ function reset(){
     homeScore = 0;
     homeScoreEl.textContent = homeScore;
     
-    guestScore = 0;
-    guestScoreEl.textContent = guestScore;
+    awayScore = 0;
+    awayScoreEl.textContent = awayScore;
     
     
 }
